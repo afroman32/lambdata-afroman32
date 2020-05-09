@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="lambdata_afroman", # the name that you will install via pip
+    name="lambdata_assig2", # the name that you will install via pip
     version="1.2",
     author="Makoa Noble",
     author_email="makoa-noble@lambdastudents.com",
