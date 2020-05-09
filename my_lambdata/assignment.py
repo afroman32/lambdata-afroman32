@@ -24,7 +24,6 @@ def add_state_names(new_df):
 if __name__ == '__main__':
 
     df = DataFrame({'abbrev': ['CA', 'CO', 'CT', 'DC', 'TX']})
-    breakpoint()
     print(df.head())
 
     df2 = add_state_names(df)
