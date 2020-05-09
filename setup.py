@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="lambdata_afroman", # the name that you will install via pip
-    version="1.1",
+    version="1.2",
     author="Makoa Noble",
     author_email="makoa-noble@lambdastudents.com",
     description="A package for basic things",
