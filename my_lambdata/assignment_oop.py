@@ -1,13 +1,13 @@
 
-from pandas import DataFrame
+from pandas import DatsaFrame
 # state abbreviations
 
 class DataProcessor:
-    def __init__(self, my_df):
+    def __init__(self, something_else):
         """
         Params: my_df (pandas.DataFrame) has a column called abbrev with state abbreviations
         """
-        self.df = my_df
+        self.df = something_else
 
 
     def add_state_names(self, df):
