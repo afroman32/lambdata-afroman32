@@ -10,6 +10,7 @@ wheel = "*"
 
 [packages]
 pandas = "*"
+update = "*"
 
 [requires]
 python_version = "3.7"
