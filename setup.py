@@ -16,5 +16,5 @@ setup(
     license="MIT",
     url="https://github.com/afroman32/lambdata-afroman32",
     #keywords="",
-    packages=find_packages() # ["my_lambdata"]
+    packages= ["my_lambdata"]
 )

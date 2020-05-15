@@ -1,5 +1,5 @@
 
-from pandas import DatsaFrame
+from pandas import DataFrame
 # state abbreviations
 
 class DataProcessor:
@@ -10,7 +10,7 @@ class DataProcessor:
         self.df = something_else
 
 
-    def add_state_names(self, df):
+    def add_state_names(self):
 
         # dictionary of names and abbreviations
         names_map = {'CA': 'California', 'CO': 'Colorado', 'CT': 'Conneticut'}
