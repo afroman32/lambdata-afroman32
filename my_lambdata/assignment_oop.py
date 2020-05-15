@@ -26,5 +26,5 @@ if __name__ == '__main__':
     processor = DataProcessor(df)
     print(processor.df.head())
 
-    processor.add_state_names(df)
+    processor.add_state_names()
     print(processor.df.head())

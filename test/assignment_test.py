@@ -13,6 +13,8 @@ class TestAssignment(unittest.TestCase):
         
         result = add_state_names(df)
         self.assertEqual(list(result.columns), ['abbrev', 'names'])
+        self.assertEqual(result.iloc[0]['abbrev'], 'CA')
+        self.assertEqual(result.iloc[0]['names'], 'California')
 
 
 if __name__ == '__main__':
