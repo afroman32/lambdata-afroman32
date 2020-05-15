@@ -1,8 +1,8 @@
 #my_script.py
 
 from pandas import DataFrame
-from my_mod import enlarge # this works
-# from my_lambdata.my_mod import enlarge
+# from my_mod import enlarge # this works
+from my_lambdata.my_mod import enlarge
 from list_to_col import List_to_col
 # from my_mod import train_val_test
 
